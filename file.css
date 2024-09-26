@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+/* LAYOUT */
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container-small {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column-100 {
+	width: 100%;
+}
+
+.column-80 {
+	width: 80%;
+}
+
+.column-40 {
+	width: 40%;
+}
+
+.column-60 {
+	width: 60%;
+}
+
+.column-33 {
+	width: calc(100% / 3);
+}
+
+.column-16 {
+	width: calc(100% / 6);
+}
