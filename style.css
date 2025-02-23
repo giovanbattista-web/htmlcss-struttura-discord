@@ -1,0 +1,31 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+header {
+    background-color: lightskyblue;
+    padding : 15px 0px;
+       }
+
+.container {
+          max-width : 1000px;
+          display : flex;
+          margin: 0 auto;
+           }
+
+.colonna1_header {
+                  width: 33%;
+                  text-align: left;
+                 }
+
+.colonna2_header {
+                  width: 33%;
+                  text-align: center;
+                   }
+
+.colonna3_header {
+                  width: 33%;
+                  text-align: right;
+                   }
