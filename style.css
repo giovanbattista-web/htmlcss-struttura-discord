@@ -5,40 +5,57 @@
 }
 
 header {
-    background-color: lightskyblue;
-    padding : 15px 0px;
+    background-color: lightblue;
+    padding : 10px 0px;
        }
 
 .container {
           max-width : 1000px;
-          display : flex;
           margin: 0 auto;
+          display: flex;
+           }
+
+.col_est{
+         width: 20%;
+                
+        }
+
+.col_centr {
+            width: 60%;
            }
 
 .container-small {
                   max-width : 800px;
                   margin : 0 auto;
-                  display: flex;
+                  
+}
+
+.altezza {
+        height : 250px;
 }
 
 .contenuto {
-            height: 320px;
-            border: 1 solid black;
-}
-.colonna1 {
-                  width: 60%;
-          }
-
-.colonna2 {
-            width: 40%;
+            padding : 15px;
 }
 
-.logo {
-       margin : 0px 10px;
+.bordo {
+         border : 1px dashed black;
 }
 
-.margine {
-          margin : 30px auto;
+.arancione  {
+             background-color: orange;
+}
+
+.testo-sinistra {
+                text-align: left;
+}
+
+.testo-centrale{
+                text-align: center;
+}
+
+.testo-destra {
+               text-align: right;
 }
 
 .fucsia {
@@ -55,51 +72,86 @@ header {
 
 .blu {
       background-color:blue;
+      padding : 15px 0px;
 }
 
-.col {
-    width : 100%;
-}
-
-.menu {
-       text-align: left;
-}
-
-.menu ul {
+header ul {
          list-style-type:none;
-         margin: 0px 15px;
-         
+        
 }
 
-.menu ul li {
+header ul li {
              display: inline-block;
-             margin : 0 15px;
+             
 }
 
 .padding {
          padding : 15px 0;
 }
 
+.margine {
+        margin : 10px auto ;
+}
+
+.colonna_grande {
+               width : 70%;
+}
+
+.colonna_piccola {
+                  width: 30%;
+}
+
+.grigio {
+        background-color: grey;
+}
+
+.colonna_full {
+        width : 100%;
+}
+
+.altezza_doppia {
+                 height:500px;
+}
+
 .verde {
         background-color: green;
 }
 
-.col-10 {
-         width:10%
+footer {
+        background-color: black;
 }
 
-.col-60 {
-         width:60%
+.footer_alto {
+              border_bottom: 1px solid white;
+              padding: 5px 0 15px 0;
+             }
+
+.flex {
+        display : flex;
 }
 
-.verde2 {
-              background-color: greenyellow;
+.rosa_scuro {
+             background-color: salmon;
 }
 
-.rosa-scuro {
-             background-color: rosybrown;
+.verde_chiaro {
+               background-color:aquamarine;
 }
 
+.colonna_25 {
+             width : 25%;
+}
 
+.footer_basso{
+              padding-top : 30px;
+}
 
+.logo_footer, .button_footer {
+              background-color: salmon;
+              border: 1px solid black;
+              padding : 5px;
+}
 
+.between {
+        justify-content:space-between;
+}
