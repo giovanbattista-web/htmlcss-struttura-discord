@@ -13,16 +13,53 @@ header {
           max-width : 1000px;
           display : flex;
           margin: 0 auto;
-          
            }
 
+.container-small {
+                  max-width : 800px;
+                  margin : 0 auto;
+                  display: flex;
+}
+
+.contenuto {
+            height: 320px;
+            border: 1 solid black;
+}
 .colonna1 {
-                  width: 40%;
+                  width: 60%;
           }
 
 .colonna2 {
-                  width: 60%;
-          }
+            width: 40%;
+}
+
+.logo {
+       margin : 0px 10px;
+}
+
+.margine {
+          margin : 30px auto;
+}
+
+.fucsia {
+        background-color: fuchsia;
+}
+
+.azzurro {
+          background-color: lightskyblue;
+}
+
+.rosa {
+        background-color: pink;
+}
+
+.blu {
+      background-color:blue;
+}
+
+.col {
+    width : 100%;
+}
 
 .menu {
        text-align: left;
@@ -30,6 +67,7 @@ header {
 
 .menu ul {
          list-style-type:none;
+         margin: 0px 15px;
          
 }
 
@@ -37,6 +75,11 @@ header {
              display: inline-block;
              margin : 0 15px;
 }
+
+.padding {
+         padding : 15px 0;
+}
+
 
 
 
