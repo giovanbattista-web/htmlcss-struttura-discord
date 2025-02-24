@@ -84,6 +84,22 @@ header {
         background-color: green;
 }
 
+.col-10 {
+         width:10%
+}
+
+.col-60 {
+         width:60%
+}
+
+.verde2 {
+              background-color: greenyellow;
+}
+
+.rosa-scuro {
+             background-color: rosybrown;
+}
+
 
 
 
