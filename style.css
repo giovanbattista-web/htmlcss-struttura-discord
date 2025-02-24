@@ -13,19 +13,30 @@ header {
           max-width : 1000px;
           display : flex;
           margin: 0 auto;
+          
            }
 
-.colonna1_header {
-                  width: 33%;
-                  text-align: left;
-                 }
+.colonna1 {
+                  width: 40%;
+          }
 
-.colonna2_header {
-                  width: 33%;
-                  text-align: center;
-                   }
+.colonna2 {
+                  width: 60%;
+          }
 
-.colonna3_header {
-                  width: 33%;
-                  text-align: right;
-                   }
+.menu {
+       text-align: left;
+}
+
+.menu ul {
+         list-style-type:none;
+         
+}
+
+.menu ul li {
+             display: inline-block;
+             margin : 0 15px;
+}
+
+
+
