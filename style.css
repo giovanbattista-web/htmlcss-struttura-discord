@@ -1,157 +1,159 @@
 *{
-    margin : 0;
-    padding: 0;
-    box-sizing : border-box;
-}
-
-header {
-    background-color: lightblue;
-    padding : 10px 0px;
-       }
-
-.container {
-          max-width : 1000px;
-          margin: 0 auto;
-          display: flex;
+        margin : 0;
+        padding: 0;
+        box-sizing : border-box;
+    }
+    
+    header {
+        background-color: lightblue;
+        padding : 10px 0px;
            }
-
-.col_est{
-         width: 20%;
-                
-        }
-
-.col_centr {
-            width: 60%;
-           }
-
-.container-small {
-                  max-width : 800px;
-                  margin : 0 auto;
-                  
-}
-
-.altezza {
-        height : 250px;
-}
-
-.contenuto {
-            padding : 15px;
-}
-
-.bordo {
-         border : 1px dashed black;
-}
-
-.arancione  {
-             background-color: orange;
-}
-
-.testo-sinistra {
-                text-align: left;
-}
-
-.testo-centrale{
-                text-align: center;
-}
-
-.testo-destra {
-               text-align: right;
-}
-
-.fucsia {
-        background-color: fuchsia;
-}
-
-.azzurro {
-          background-color: lightskyblue;
-}
-
-.rosa {
-        background-color: pink;
-}
-
-.blu {
-      background-color:blue;
-      padding : 15px 0px;
-}
-
-header ul {
-         list-style-type:none;
-        
-}
-
-header ul li {
-             display: inline-block;
-             
-}
-
-.padding {
-         padding : 15px 0;
-}
-
-.margine {
-        margin : 10px auto ;
-}
-
-.colonna_grande {
-               width : 70%;
-}
-
-.colonna_piccola {
-                  width: 30%;
-}
-
-.grigio {
-        background-color: grey;
-}
-
-.colonna_full {
-        width : 100%;
-}
-
-.altezza_doppia {
-                 height:500px;
-}
-
-.verde {
-        background-color: green;
-}
-
-footer {
-        background-color: black;
-}
-
-.footer_alto {
-              border_bottom: 1px solid white;
-              padding: 5px 0 15px 0;
-             }
-
-.flex {
-        display : flex;
-}
-
-.rosa_scuro {
-             background-color: salmon;
-}
-
-.verde_chiaro {
-               background-color:aquamarine;
-}
-
-.colonna_25 {
-             width : 25%;
-}
-
-.footer_basso{
-              padding-top : 30px;
-}
-
-.logo_footer, .button_footer {
-              background-color: salmon;
-              border: 1px solid black;
-              padding : 5px;
-}
-
-.between {
-        justify-content:space-between;
-}
+    
+    .container {
+              max-width : 1000px;
+              margin: 0 auto;
+              display: flex;
+               }
+    
+    .col_est{
+             width: 20%;
+                    
+            }
+    
+    .col_centr {
+                width: 60%;
+               }
+    
+    .container-small {
+                      max-width : 800px;
+                      margin : 0 auto;
+                      
+    }
+    
+    .altezza {
+            height : 250px;
+    }
+    
+    .contenuto {
+                padding : 15px;
+    }
+    
+    .bordo {
+             border : 1px dashed black;
+    }
+    
+    .arancione  {
+                 background-color: orange;
+    }
+    
+    .testo-sinistra {
+                    text-align: left;
+    }
+    
+    .testo-centrale{
+                    text-align: center;
+    }
+    
+    .testo-destra {
+                   text-align: right;
+    }
+    
+    .fucsia {
+            background-color: fuchsia;
+    }
+    
+    .azzurro {
+              background-color: lightskyblue;
+    }
+    
+    .rosa {
+            background-color: pink;
+    }
+    
+    .blu {
+          background-color:blue;
+          padding : 15px 0px;
+    }
+    
+    header ul {
+             list-style-type:none;
+            
+    }
+    
+    header ul li {
+                 display: inline-block;
+                 
+    }
+    
+    .padding {
+             padding : 15px 0;
+    }
+    
+    .margine {
+            margin : 10px auto ;
+    }
+    
+    .colonna_grande {
+                   width : 70%;
+    }
+    
+    .colonna_piccola {
+                      width: 30%;
+    }
+    
+    .grigio {
+            background-color: grey;
+    }
+    
+    .colonna_full {
+            width : 100%;
+    }
+    
+    .altezza_doppia {
+                     height:500px;
+    }
+    
+    .verde {
+            background-color: green;
+    }
+    
+    footer {
+            background-color: black;
+    }
+    
+    .footer_alto {
+                  border-bottom: 1px solid white;
+                  padding: 5px 0 15px 0;
+                 }
+    
+    .flex {
+            display : flex;
+    }
+    
+    .rosa_scuro {
+                 background-color: salmon;
+    }
+    
+    .verde_chiaro {
+                   background-color:aquamarine;
+    }
+    
+    .colonna_25 {
+                 width : 25%;
+    }
+    
+    .footer_basso{
+                  padding-top : 30px;
+    }
+    
+    .logo_footer, .button_footer {
+                  background-color: salmon;
+                  border: 1px solid black;
+                  padding : 5px;
+    }
+    
+    .between {
+            justify-content:space-between;
+    }
+    
+    
